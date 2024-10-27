@@ -532,10 +532,12 @@ max-width: 264px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
+        margin-bottom: 16px;
 }
 
 .subscribe-form{
     display: flex;
+    gap: 24px;
 }
 
 .footer-input{
@@ -563,7 +565,7 @@ max-width: 264px;
     margin-left: 24px;
     border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         background-color: #4d5ae5;
 display: flex;
