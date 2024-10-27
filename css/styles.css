@@ -802,13 +802,14 @@ border: 1px solid #4d5ae5;
         align-items: center;
         justify-content: center;
         fill: transparent;
-display: inline-flex;
+        display: inline-flex;
 }
 
 .modal-check:checked + .modal-check-text span{
     background-color:  #404bbf;
     border: none;
     fill: #f4f4fd;
+    display: inline-flex;
 }
 
 .label-span{
