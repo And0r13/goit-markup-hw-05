@@ -702,8 +702,12 @@ cursor: pointer;
 }
 
 .modal-field{
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 
+}
+
+.modal-field2{
+    margin-bottom: 16px;
 }
 
 .input-wrapper{
@@ -808,7 +812,7 @@ border: 1px solid #4d5ae5;
     display: inline-flex;
 }
 
-.modal-input:checked .label-span{
+.modal-input:checked + .label-span{
     fill: #f4f4fd;
 }
 
